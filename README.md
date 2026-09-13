@@ -13,7 +13,7 @@
 3.[**可选**] 使用**ffmpeg**来转码为RGBA32格式⚠️\
   ffmpeg -i input.png -pix_fmt rgba output.png
   
-4.利用**apngasm**来将png图片合成为apng文件(x=png01)\
+4.利用**apngasm**来将png图片合成为apng文件 第一帧作为**缩略图**(x=png01)\
   apngasm output.png x.png 10 1 -f -l1
 
 **apngasm**下载 https://sourceforge.net/projects/apngasm/files/2.91/apngasm-2.91-bin-win64.zip/download
